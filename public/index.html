@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Perfil — Notas & Estadística</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil - Notas y Estadistica</title>
+  <style>
+    body { font-family: sans-serif }}
+    section { margin: 10px; padding: 10px; background: #fff; border: 1px solid #000; }
+    table { width: 100%; border: 1px solid #000; }
+    th, td { padding: 5px; border: 1px solid #3e4d53; }
+    th { background: #ff5e00; }
+    #salida { font-weight: bold; }
+  </style>
 </head>
-<style>
-  body{
-    font-family: sans-serif;
-  }
-
-</style>
 <body>
-  <h1>Diego Delgado</h1>
-  <p>NRC: 22431</p>
-  <p>jddelgado5@espe.edu.ec</p>
-  <p>Soy Diego estudio en la espe y esta es la prueba
-    conjunta de 3er parcial en pruebas de software
-  </p>
-
-  <table>
-        <th>Materia</th>
-      
-        <th>Nota</th>
-
-        tr
-  </table>
-
-
-
-  <div id="out"></div>
+  <header>
+    <h1>Perfil - Notas & Estadistica</h1>
+  </header>
+  <section>
+    <h2>Diego Delgado</h2>
+    <p>NRC: 22431</p>
+    <p>Correo: jddelgado5@espe.edu.ec</p>
+    <p>Hola soy Diego Delgado y esta es mi prueba final de pruebas de sofware</p>
+  </section>
+  <section>
+    <h2>Notas</h2>
+    <table>
+      <tr><th>Asignatura</th><th>Nota</th><th>Peso</th></tr>
+      <tr><td>Redes</td><td>80</td><td>0.4</td></tr>
+      <tr><td>Programacion</td><td>90</td><td>0.6</td></tr>
+    </table>
+    <div id="salida"></div>
+  </section>
   <script src="app.js"></script>
 </body>
 </html>
